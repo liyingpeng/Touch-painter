@@ -1,18 +1,18 @@
 //
-//  PainterImageListVC.m
+//  PainterCanvasVC.m
 //  TouchPainter
 //
 //  Created by liyingpeng on 15/11/6.
 //  Copyright © 2015年 liyingpeng. All rights reserved.
 //
 
-#import "PainterImageListVC.h"
+#import "PainterCanvasVC.h"
 
-@interface PainterImageListVC ()
+@interface PainterCanvasVC ()
 
 @end
 
-@implementation PainterImageListVC
+@implementation PainterCanvasVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -1,18 +1,18 @@
 //
-//  PainterMainPaintVC.m
+//  PainterThumbnailVC.m
 //  TouchPainter
 //
 //  Created by liyingpeng on 15/11/6.
 //  Copyright © 2015年 liyingpeng. All rights reserved.
 //
 
-#import "PainterMainPaintVC.h"
+#import "PainterThumbnailVC.h"
 
-@interface PainterMainPaintVC ()
+@interface PainterThumbnailVC ()
 
 @end
 
-@implementation PainterMainPaintVC
+@implementation PainterThumbnailVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

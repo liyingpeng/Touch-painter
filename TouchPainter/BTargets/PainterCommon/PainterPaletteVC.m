@@ -1,18 +1,18 @@
 //
-//  PainterLineSettingVC.m
+//  PainterPaletteVC.m
 //  TouchPainter
 //
 //  Created by liyingpeng on 15/11/6.
 //  Copyright © 2015年 liyingpeng. All rights reserved.
 //
 
-#import "PainterLineSettingVC.h"
+#import "PainterPaletteVC.h"
 
-@interface PainterLineSettingVC ()
+@interface PainterPaletteVC ()
 
 @end
 
-@implementation PainterLineSettingVC
+@implementation PainterPaletteVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -1,5 +1,5 @@
 //
-//  PainterImageListVC.h
+//  PainterPaletteVC.h
 //  TouchPainter
 //
 //  Created by liyingpeng on 15/11/6.
@@ -8,6 +8,6 @@
 
 #import "PainterBaseViewController.h"
 
-@interface PainterImageListVC : PainterBaseViewController
+@interface PainterPaletteVC : PainterBaseViewController
 
 @end

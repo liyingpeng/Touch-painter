@@ -1,5 +1,5 @@
 //
-//  PainterLineSettingVC.h
+//  PainterThumbnailVC.h
 //  TouchPainter
 //
 //  Created by liyingpeng on 15/11/6.
@@ -8,6 +8,6 @@
 
 #import "PainterBaseViewController.h"
 
-@interface PainterLineSettingVC : PainterBaseViewController
+@interface PainterThumbnailVC : PainterBaseViewController
 
 @end
