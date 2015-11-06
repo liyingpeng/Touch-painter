@@ -23,6 +23,7 @@
 		9C99BE3D1BEC79660043B7F7 /* PainterBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE3C1BEC79660043B7F7 /* PainterBaseViewController.m */; };
 		9C99BE401BEC79BF0043B7F7 /* PainterMainPaintVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE3F1BEC79BF0043B7F7 /* PainterMainPaintVC.m */; };
 		9C99BE431BEC79D50043B7F7 /* PainterLineSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE421BEC79D50043B7F7 /* PainterLineSettingVC.m */; };
+		9C99BE471BEC7B410043B7F7 /* PainterImageListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE461BEC7B410043B7F7 /* PainterImageListVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		9C99BE3F1BEC79BF0043B7F7 /* PainterMainPaintVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterMainPaintVC.m; sourceTree = "<group>"; };
 		9C99BE411BEC79D50043B7F7 /* PainterLineSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterLineSettingVC.h; sourceTree = "<group>"; };
 		9C99BE421BEC79D50043B7F7 /* PainterLineSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterLineSettingVC.m; sourceTree = "<group>"; };
+		9C99BE451BEC7B410043B7F7 /* PainterImageListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterImageListVC.h; sourceTree = "<group>"; };
+		9C99BE461BEC7B410043B7F7 /* PainterImageListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterImageListVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +186,8 @@
 				9C99BE3F1BEC79BF0043B7F7 /* PainterMainPaintVC.m */,
 				9C99BE411BEC79D50043B7F7 /* PainterLineSettingVC.h */,
 				9C99BE421BEC79D50043B7F7 /* PainterLineSettingVC.m */,
+				9C99BE451BEC7B410043B7F7 /* PainterImageListVC.h */,
+				9C99BE461BEC7B410043B7F7 /* PainterImageListVC.m */,
 			);
 			path = BTargets;
 			sourceTree = "<group>";
@@ -323,6 +328,7 @@
 				9C99BE431BEC79D50043B7F7 /* PainterLineSettingVC.m in Sources */,
 				9C99BE3D1BEC79660043B7F7 /* PainterBaseViewController.m in Sources */,
 				9C99BE401BEC79BF0043B7F7 /* PainterMainPaintVC.m in Sources */,
+				9C99BE471BEC7B410043B7F7 /* PainterImageListVC.m in Sources */,
 				9C99BE371BEC78750043B7F7 /* PainterTabBarController.m in Sources */,
 				9C99BE3A1BEC79100043B7F7 /* PainterNavigationController.m in Sources */,
 			);
