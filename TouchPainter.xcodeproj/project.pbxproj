@@ -18,6 +18,11 @@
 		9C32F1581BEC4BAC00FA8588 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F1571BEC4BAC00FA8588 /* UIKit.framework */; };
 		9C32F15A1BEC4BD500FA8588 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F1591BEC4BD500FA8588 /* CoreImage.framework */; };
 		9C32F15C1BEC4BE300FA8588 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F15B1BEC4BE300FA8588 /* CoreGraphics.framework */; };
+		9C99BE371BEC78750043B7F7 /* PainterTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE361BEC78750043B7F7 /* PainterTabBarController.m */; };
+		9C99BE3A1BEC79100043B7F7 /* PainterNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE391BEC79100043B7F7 /* PainterNavigationController.m */; };
+		9C99BE3D1BEC79660043B7F7 /* PainterBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE3C1BEC79660043B7F7 /* PainterBaseViewController.m */; };
+		9C99BE401BEC79BF0043B7F7 /* PainterMainPaintVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE3F1BEC79BF0043B7F7 /* PainterMainPaintVC.m */; };
+		9C99BE431BEC79D50043B7F7 /* PainterLineSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE421BEC79D50043B7F7 /* PainterLineSettingVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,16 @@
 		9C32F1571BEC4BAC00FA8588 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C32F1591BEC4BD500FA8588 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		9C32F15B1BEC4BE300FA8588 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C99BE351BEC78750043B7F7 /* PainterTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterTabBarController.h; sourceTree = "<group>"; };
+		9C99BE361BEC78750043B7F7 /* PainterTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterTabBarController.m; sourceTree = "<group>"; };
+		9C99BE381BEC79100043B7F7 /* PainterNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterNavigationController.h; sourceTree = "<group>"; };
+		9C99BE391BEC79100043B7F7 /* PainterNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterNavigationController.m; sourceTree = "<group>"; };
+		9C99BE3B1BEC79660043B7F7 /* PainterBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterBaseViewController.h; sourceTree = "<group>"; };
+		9C99BE3C1BEC79660043B7F7 /* PainterBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterBaseViewController.m; sourceTree = "<group>"; };
+		9C99BE3E1BEC79BF0043B7F7 /* PainterMainPaintVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterMainPaintVC.h; sourceTree = "<group>"; };
+		9C99BE3F1BEC79BF0043B7F7 /* PainterMainPaintVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterMainPaintVC.m; sourceTree = "<group>"; };
+		9C99BE411BEC79D50043B7F7 /* PainterLineSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterLineSettingVC.h; sourceTree = "<group>"; };
+		9C99BE421BEC79D50043B7F7 /* PainterLineSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterLineSettingVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +113,7 @@
 		18F8B4C21BEBA34E003C3297 /* TouchPainter */ = {
 			isa = PBXGroup;
 			children = (
+				9C99BE321BEC78040043B7F7 /* BTargets */,
 				9C32EEB41BEC465700FA8588 /* Common */,
 				18F8B4C71BEBA34E003C3297 /* AppDelegate.h */,
 				18F8B4C81BEBA34E003C3297 /* AppDelegate.m */,
@@ -157,6 +173,47 @@
 				9C32F1551BEC49F700FA8588 /* Foundation.framework */,
 			);
 			name = framework;
+			sourceTree = "<group>";
+		};
+		9C99BE321BEC78040043B7F7 /* BTargets */ = {
+			isa = PBXGroup;
+			children = (
+				9C99BE331BEC78240043B7F7 /* PainterCommon */,
+				9C99BE3E1BEC79BF0043B7F7 /* PainterMainPaintVC.h */,
+				9C99BE3F1BEC79BF0043B7F7 /* PainterMainPaintVC.m */,
+				9C99BE411BEC79D50043B7F7 /* PainterLineSettingVC.h */,
+				9C99BE421BEC79D50043B7F7 /* PainterLineSettingVC.m */,
+			);
+			path = BTargets;
+			sourceTree = "<group>";
+		};
+		9C99BE331BEC78240043B7F7 /* PainterCommon */ = {
+			isa = PBXGroup;
+			children = (
+				9C99BE441BEC7A470043B7F7 /* Views */,
+				9C99BE341BEC78490043B7F7 /* Base */,
+			);
+			path = PainterCommon;
+			sourceTree = "<group>";
+		};
+		9C99BE341BEC78490043B7F7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9C99BE351BEC78750043B7F7 /* PainterTabBarController.h */,
+				9C99BE361BEC78750043B7F7 /* PainterTabBarController.m */,
+				9C99BE381BEC79100043B7F7 /* PainterNavigationController.h */,
+				9C99BE391BEC79100043B7F7 /* PainterNavigationController.m */,
+				9C99BE3B1BEC79660043B7F7 /* PainterBaseViewController.h */,
+				9C99BE3C1BEC79660043B7F7 /* PainterBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9C99BE441BEC7A470043B7F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +320,11 @@
 				18F8B4CC1BEBA34E003C3297 /* ViewController.m in Sources */,
 				18F8B4C91BEBA34E003C3297 /* AppDelegate.m in Sources */,
 				18F8B4C61BEBA34E003C3297 /* main.m in Sources */,
+				9C99BE431BEC79D50043B7F7 /* PainterLineSettingVC.m in Sources */,
+				9C99BE3D1BEC79660043B7F7 /* PainterBaseViewController.m in Sources */,
+				9C99BE401BEC79BF0043B7F7 /* PainterMainPaintVC.m in Sources */,
+				9C99BE371BEC78750043B7F7 /* PainterTabBarController.m in Sources */,
+				9C99BE3A1BEC79100043B7F7 /* PainterNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
