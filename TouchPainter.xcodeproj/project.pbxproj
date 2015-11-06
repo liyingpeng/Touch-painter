@@ -24,6 +24,7 @@
 		9C99BE4A1BEC7C240043B7F7 /* PainterCanvasVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE491BEC7C240043B7F7 /* PainterCanvasVC.m */; };
 		9C99BE4D1BEC7C3A0043B7F7 /* PainterPaletteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE4C1BEC7C3A0043B7F7 /* PainterPaletteVC.m */; };
 		9C99BE501BEC7C4B0043B7F7 /* PainterThumbnailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE4F1BEC7C4B0043B7F7 /* PainterThumbnailVC.m */; };
+		9C99BE531BEC815B0043B7F7 /* PainterCoordinatingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE521BEC815B0043B7F7 /* PainterCoordinatingVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		9C99BE4C1BEC7C3A0043B7F7 /* PainterPaletteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterPaletteVC.m; sourceTree = "<group>"; };
 		9C99BE4E1BEC7C4B0043B7F7 /* PainterThumbnailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterThumbnailVC.h; sourceTree = "<group>"; };
 		9C99BE4F1BEC7C4B0043B7F7 /* PainterThumbnailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterThumbnailVC.m; sourceTree = "<group>"; };
+		9C99BE511BEC815B0043B7F7 /* PainterCoordinatingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterCoordinatingVC.h; sourceTree = "<group>"; };
+		9C99BE521BEC815B0043B7F7 /* PainterCoordinatingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterCoordinatingVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +192,7 @@
 		9C99BE331BEC78240043B7F7 /* PainterCommon */ = {
 			isa = PBXGroup;
 			children = (
+				9C99BE541BEC82AC0043B7F7 /* Models */,
 				9C99BE441BEC7A470043B7F7 /* Views */,
 				9C99BE341BEC78490043B7F7 /* Base */,
 				9C99BE481BEC7C240043B7F7 /* PainterCanvasVC.h */,
@@ -197,6 +201,8 @@
 				9C99BE4C1BEC7C3A0043B7F7 /* PainterPaletteVC.m */,
 				9C99BE4E1BEC7C4B0043B7F7 /* PainterThumbnailVC.h */,
 				9C99BE4F1BEC7C4B0043B7F7 /* PainterThumbnailVC.m */,
+				9C99BE511BEC815B0043B7F7 /* PainterCoordinatingVC.h */,
+				9C99BE521BEC815B0043B7F7 /* PainterCoordinatingVC.m */,
 			);
 			path = PainterCommon;
 			sourceTree = "<group>";
@@ -219,6 +225,13 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9C99BE541BEC82AC0043B7F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +342,7 @@
 				18F8B4C61BEBA34E003C3297 /* main.m in Sources */,
 				9C99BE3D1BEC79660043B7F7 /* PainterBaseViewController.m in Sources */,
 				9C99BE371BEC78750043B7F7 /* PainterTabBarController.m in Sources */,
+				9C99BE531BEC815B0043B7F7 /* PainterCoordinatingVC.m in Sources */,
 				9C99BE4A1BEC7C240043B7F7 /* PainterCanvasVC.m in Sources */,
 				9C99BE3A1BEC79100043B7F7 /* PainterNavigationController.m in Sources */,
 			);
