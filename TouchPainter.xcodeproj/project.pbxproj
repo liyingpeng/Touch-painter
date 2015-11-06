@@ -79,13 +79,10 @@
 		18F8B4B71BEBA34E003C3297 = {
 			isa = PBXGroup;
 			children = (
-				9C32F15B1BEC4BE300FA8588 /* CoreGraphics.framework */,
-				9C32F1591BEC4BD500FA8588 /* CoreImage.framework */,
-				9C32F1571BEC4BAC00FA8588 /* UIKit.framework */,
-				9C32F1551BEC49F700FA8588 /* Foundation.framework */,
 				18F8B4C21BEBA34E003C3297 /* TouchPainter */,
 				18F8B4DC1BEBA34E003C3297 /* TouchPainterTests */,
 				18F8B4C11BEBA34E003C3297 /* Products */,
+				9C32F15D1BEC4EE200FA8588 /* framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +146,17 @@
 				9C32EEB81BEC465700FA8588 /* SigletonMarco.h */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		9C32F15D1BEC4EE200FA8588 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				9C32F15B1BEC4BE300FA8588 /* CoreGraphics.framework */,
+				9C32F1591BEC4BD500FA8588 /* CoreImage.framework */,
+				9C32F1571BEC4BAC00FA8588 /* UIKit.framework */,
+				9C32F1551BEC49F700FA8588 /* Foundation.framework */,
+			);
+			name = framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
