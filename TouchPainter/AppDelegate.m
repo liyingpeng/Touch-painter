@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CoordinatingController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window.rootViewController = [[CoordinatingController sharedInstance] activeViewController];
+    
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }

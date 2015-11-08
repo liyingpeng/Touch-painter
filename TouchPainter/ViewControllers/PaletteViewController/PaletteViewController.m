@@ -1,18 +1,18 @@
 //
-//  PainterTabBarController.m
+//  PaletteViewController.m
 //  TouchPainter
 //
-//  Created by liyingpeng on 15/11/6.
+//  Created by liyingpeng on 15/11/8.
 //  Copyright © 2015年 liyingpeng. All rights reserved.
 //
 
-#import "PainterTabBarController.h"
+#import "PaletteViewController.h"
 
-@interface PainterTabBarController ()
+@interface PaletteViewController ()
 
 @end
 
-@implementation PainterTabBarController
+@implementation PaletteViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

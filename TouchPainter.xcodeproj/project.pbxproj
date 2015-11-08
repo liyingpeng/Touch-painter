@@ -9,22 +9,18 @@
 /* Begin PBXBuildFile section */
 		18F8B4C61BEBA34E003C3297 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8B4C51BEBA34E003C3297 /* main.m */; };
 		18F8B4C91BEBA34E003C3297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8B4C81BEBA34E003C3297 /* AppDelegate.m */; };
-		18F8B4CC1BEBA34E003C3297 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8B4CB1BEBA34E003C3297 /* ViewController.m */; };
 		18F8B4CF1BEBA34E003C3297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8B4CD1BEBA34E003C3297 /* Main.storyboard */; };
 		18F8B4D11BEBA34E003C3297 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F8B4D01BEBA34E003C3297 /* Images.xcassets */; };
 		18F8B4D41BEBA34E003C3297 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F8B4D21BEBA34E003C3297 /* LaunchScreen.xib */; };
 		18F8B4E01BEBA34E003C3297 /* TouchPainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8B4DF1BEBA34E003C3297 /* TouchPainterTests.m */; };
+		9C1CC7791BEF98D2006FC99F /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7781BEF98D2006FC99F /* CanvasViewController.m */; };
+		9C1CC77C1BEF98DC006FC99F /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC77B1BEF98DC006FC99F /* PaletteViewController.m */; };
+		9C1CC77F1BEF98E7006FC99F /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC77E1BEF98E7006FC99F /* ThumbnailViewController.m */; };
+		9C1CC7821BEF9922006FC99F /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7811BEF9922006FC99F /* CoordinatingController.m */; };
 		9C32F1561BEC49F700FA8588 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F1551BEC49F700FA8588 /* Foundation.framework */; };
 		9C32F1581BEC4BAC00FA8588 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F1571BEC4BAC00FA8588 /* UIKit.framework */; };
 		9C32F15A1BEC4BD500FA8588 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F1591BEC4BD500FA8588 /* CoreImage.framework */; };
 		9C32F15C1BEC4BE300FA8588 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F15B1BEC4BE300FA8588 /* CoreGraphics.framework */; };
-		9C99BE371BEC78750043B7F7 /* PainterTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE361BEC78750043B7F7 /* PainterTabBarController.m */; };
-		9C99BE3A1BEC79100043B7F7 /* PainterNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE391BEC79100043B7F7 /* PainterNavigationController.m */; };
-		9C99BE3D1BEC79660043B7F7 /* PainterBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE3C1BEC79660043B7F7 /* PainterBaseViewController.m */; };
-		9C99BE4A1BEC7C240043B7F7 /* PainterCanvasVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE491BEC7C240043B7F7 /* PainterCanvasVC.m */; };
-		9C99BE4D1BEC7C3A0043B7F7 /* PainterPaletteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE4C1BEC7C3A0043B7F7 /* PainterPaletteVC.m */; };
-		9C99BE501BEC7C4B0043B7F7 /* PainterThumbnailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE4F1BEC7C4B0043B7F7 /* PainterThumbnailVC.m */; };
-		9C99BE531BEC815B0043B7F7 /* PainterCoordinatingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BE521BEC815B0043B7F7 /* PainterCoordinatingVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,36 +39,28 @@
 		18F8B4C51BEBA34E003C3297 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18F8B4C71BEBA34E003C3297 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F8B4C81BEBA34E003C3297 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18F8B4CA1BEBA34E003C3297 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18F8B4CB1BEBA34E003C3297 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18F8B4CE1BEBA34E003C3297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F8B4D01BEBA34E003C3297 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18F8B4D31BEBA34E003C3297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18F8B4D91BEBA34E003C3297 /* TouchPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F8B4DE1BEBA34E003C3297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F8B4DF1BEBA34E003C3297 /* TouchPainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPainterTests.m; sourceTree = "<group>"; };
-		9C32EEB51BEC465700FA8588 /* BDMCommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDMCommonHeader.h; sourceTree = "<group>"; };
-		9C32EEB61BEC465700FA8588 /* BDMMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDMMacroDefine.h; sourceTree = "<group>"; };
-		9C32EEB71BEC465700FA8588 /* Commons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
-		9C32EEB81BEC465700FA8588 /* SigletonMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigletonMarco.h; sourceTree = "<group>"; };
+		9C1CC7771BEF98D2006FC99F /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		9C1CC7781BEF98D2006FC99F /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		9C1CC77A1BEF98DC006FC99F /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
+		9C1CC77B1BEF98DC006FC99F /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
+		9C1CC77D1BEF98E7006FC99F /* ThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailViewController.h; sourceTree = "<group>"; };
+		9C1CC77E1BEF98E7006FC99F /* ThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailViewController.m; sourceTree = "<group>"; };
+		9C1CC7801BEF9922006FC99F /* CoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatingController.h; sourceTree = "<group>"; };
+		9C1CC7811BEF9922006FC99F /* CoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
+		9C1CC7841BEF9CD0006FC99F /* BDMCommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDMCommonHeader.h; sourceTree = "<group>"; };
+		9C1CC7851BEF9CD0006FC99F /* BDMMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDMMacroDefine.h; sourceTree = "<group>"; };
+		9C1CC7861BEF9CD0006FC99F /* Commons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
+		9C1CC7871BEF9CD0006FC99F /* SigletonMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigletonMarco.h; sourceTree = "<group>"; };
 		9C32F1551BEC49F700FA8588 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9C32F1571BEC4BAC00FA8588 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C32F1591BEC4BD500FA8588 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		9C32F15B1BEC4BE300FA8588 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9C99BE351BEC78750043B7F7 /* PainterTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterTabBarController.h; sourceTree = "<group>"; };
-		9C99BE361BEC78750043B7F7 /* PainterTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterTabBarController.m; sourceTree = "<group>"; };
-		9C99BE381BEC79100043B7F7 /* PainterNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterNavigationController.h; sourceTree = "<group>"; };
-		9C99BE391BEC79100043B7F7 /* PainterNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterNavigationController.m; sourceTree = "<group>"; };
-		9C99BE3B1BEC79660043B7F7 /* PainterBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterBaseViewController.h; sourceTree = "<group>"; };
-		9C99BE3C1BEC79660043B7F7 /* PainterBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterBaseViewController.m; sourceTree = "<group>"; };
-		9C99BE481BEC7C240043B7F7 /* PainterCanvasVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterCanvasVC.h; sourceTree = "<group>"; };
-		9C99BE491BEC7C240043B7F7 /* PainterCanvasVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterCanvasVC.m; sourceTree = "<group>"; };
-		9C99BE4B1BEC7C3A0043B7F7 /* PainterPaletteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterPaletteVC.h; sourceTree = "<group>"; };
-		9C99BE4C1BEC7C3A0043B7F7 /* PainterPaletteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterPaletteVC.m; sourceTree = "<group>"; };
-		9C99BE4E1BEC7C4B0043B7F7 /* PainterThumbnailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterThumbnailVC.h; sourceTree = "<group>"; };
-		9C99BE4F1BEC7C4B0043B7F7 /* PainterThumbnailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterThumbnailVC.m; sourceTree = "<group>"; };
-		9C99BE511BEC815B0043B7F7 /* PainterCoordinatingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterCoordinatingVC.h; sourceTree = "<group>"; };
-		9C99BE521BEC815B0043B7F7 /* PainterCoordinatingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterCoordinatingVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,12 +107,20 @@
 		18F8B4C21BEBA34E003C3297 /* TouchPainter */ = {
 			isa = PBXGroup;
 			children = (
-				9C99BE321BEC78040043B7F7 /* BTargets */,
-				9C32EEB41BEC465700FA8588 /* Common */,
+				9C1CC7831BEF9CD0006FC99F /* Common */,
+				9C1CC7691BEF976A006FC99F /* Command */,
+				9C1CC76A1BEF976A006FC99F /* Composite_Prototype_Iterator */,
+				9C1CC76B1BEF976A006FC99F /* Factory */,
+				9C1CC76C1BEF976A006FC99F /* Iterator */,
+				9C1CC76D1BEF976A006FC99F /* Mediator */,
+				9C1CC76E1BEF976A006FC99F /* MementoObserver */,
+				9C1CC76F1BEF976A006FC99F /* Proxy */,
+				9C1CC7701BEF976A006FC99F /* Utils */,
+				9C1CC7731BEF976A006FC99F /* Visitor */,
+				9C1CC7721BEF976A006FC99F /* Views */,
+				9C1CC7711BEF976A006FC99F /* ViewControllers */,
 				18F8B4C71BEBA34E003C3297 /* AppDelegate.h */,
 				18F8B4C81BEBA34E003C3297 /* AppDelegate.m */,
-				18F8B4CA1BEBA34E003C3297 /* ViewController.h */,
-				18F8B4CB1BEBA34E003C3297 /* ViewController.m */,
 				18F8B4CD1BEBA34E003C3297 /* Main.storyboard */,
 				18F8B4D01BEBA34E003C3297 /* Images.xcassets */,
 				18F8B4D21BEBA34E003C3297 /* LaunchScreen.xib */,
@@ -159,13 +155,122 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9C32EEB41BEC465700FA8588 /* Common */ = {
+		9C1CC7691BEF976A006FC99F /* Command */ = {
 			isa = PBXGroup;
 			children = (
-				9C32EEB51BEC465700FA8588 /* BDMCommonHeader.h */,
-				9C32EEB61BEC465700FA8588 /* BDMMacroDefine.h */,
-				9C32EEB71BEC465700FA8588 /* Commons.h */,
-				9C32EEB81BEC465700FA8588 /* SigletonMarco.h */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		9C1CC76A1BEF976A006FC99F /* Composite_Prototype_Iterator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Composite_Prototype_Iterator;
+			sourceTree = "<group>";
+		};
+		9C1CC76B1BEF976A006FC99F /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		9C1CC76C1BEF976A006FC99F /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		9C1CC76D1BEF976A006FC99F /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				9C1CC7801BEF9922006FC99F /* CoordinatingController.h */,
+				9C1CC7811BEF9922006FC99F /* CoordinatingController.m */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		9C1CC76E1BEF976A006FC99F /* MementoObserver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MementoObserver;
+			sourceTree = "<group>";
+		};
+		9C1CC76F1BEF976A006FC99F /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		9C1CC7701BEF976A006FC99F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9C1CC7711BEF976A006FC99F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C1CC7741BEF97C7006FC99F /* CanvasViewController */,
+				9C1CC7751BEF97C7006FC99F /* PaletteViewController */,
+				9C1CC7761BEF97C7006FC99F /* ThumbnailViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9C1CC7721BEF976A006FC99F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C1CC7731BEF976A006FC99F /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		9C1CC7741BEF97C7006FC99F /* CanvasViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C1CC7771BEF98D2006FC99F /* CanvasViewController.h */,
+				9C1CC7781BEF98D2006FC99F /* CanvasViewController.m */,
+			);
+			path = CanvasViewController;
+			sourceTree = "<group>";
+		};
+		9C1CC7751BEF97C7006FC99F /* PaletteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C1CC77A1BEF98DC006FC99F /* PaletteViewController.h */,
+				9C1CC77B1BEF98DC006FC99F /* PaletteViewController.m */,
+			);
+			path = PaletteViewController;
+			sourceTree = "<group>";
+		};
+		9C1CC7761BEF97C7006FC99F /* ThumbnailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C1CC77D1BEF98E7006FC99F /* ThumbnailViewController.h */,
+				9C1CC77E1BEF98E7006FC99F /* ThumbnailViewController.m */,
+			);
+			path = ThumbnailViewController;
+			sourceTree = "<group>";
+		};
+		9C1CC7831BEF9CD0006FC99F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9C1CC7841BEF9CD0006FC99F /* BDMCommonHeader.h */,
+				9C1CC7851BEF9CD0006FC99F /* BDMMacroDefine.h */,
+				9C1CC7861BEF9CD0006FC99F /* Commons.h */,
+				9C1CC7871BEF9CD0006FC99F /* SigletonMarco.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -179,59 +284,6 @@
 				9C32F1551BEC49F700FA8588 /* Foundation.framework */,
 			);
 			name = framework;
-			sourceTree = "<group>";
-		};
-		9C99BE321BEC78040043B7F7 /* BTargets */ = {
-			isa = PBXGroup;
-			children = (
-				9C99BE331BEC78240043B7F7 /* PainterCommon */,
-			);
-			path = BTargets;
-			sourceTree = "<group>";
-		};
-		9C99BE331BEC78240043B7F7 /* PainterCommon */ = {
-			isa = PBXGroup;
-			children = (
-				9C99BE541BEC82AC0043B7F7 /* Models */,
-				9C99BE441BEC7A470043B7F7 /* Views */,
-				9C99BE341BEC78490043B7F7 /* Base */,
-				9C99BE481BEC7C240043B7F7 /* PainterCanvasVC.h */,
-				9C99BE491BEC7C240043B7F7 /* PainterCanvasVC.m */,
-				9C99BE4B1BEC7C3A0043B7F7 /* PainterPaletteVC.h */,
-				9C99BE4C1BEC7C3A0043B7F7 /* PainterPaletteVC.m */,
-				9C99BE4E1BEC7C4B0043B7F7 /* PainterThumbnailVC.h */,
-				9C99BE4F1BEC7C4B0043B7F7 /* PainterThumbnailVC.m */,
-				9C99BE511BEC815B0043B7F7 /* PainterCoordinatingVC.h */,
-				9C99BE521BEC815B0043B7F7 /* PainterCoordinatingVC.m */,
-			);
-			path = PainterCommon;
-			sourceTree = "<group>";
-		};
-		9C99BE341BEC78490043B7F7 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				9C99BE351BEC78750043B7F7 /* PainterTabBarController.h */,
-				9C99BE361BEC78750043B7F7 /* PainterTabBarController.m */,
-				9C99BE381BEC79100043B7F7 /* PainterNavigationController.h */,
-				9C99BE391BEC79100043B7F7 /* PainterNavigationController.m */,
-				9C99BE3B1BEC79660043B7F7 /* PainterBaseViewController.h */,
-				9C99BE3C1BEC79660043B7F7 /* PainterBaseViewController.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		9C99BE441BEC7A470043B7F7 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		9C99BE541BEC82AC0043B7F7 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,16 +387,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C99BE501BEC7C4B0043B7F7 /* PainterThumbnailVC.m in Sources */,
-				9C99BE4D1BEC7C3A0043B7F7 /* PainterPaletteVC.m in Sources */,
-				18F8B4CC1BEBA34E003C3297 /* ViewController.m in Sources */,
+				9C1CC7821BEF9922006FC99F /* CoordinatingController.m in Sources */,
+				9C1CC77C1BEF98DC006FC99F /* PaletteViewController.m in Sources */,
 				18F8B4C91BEBA34E003C3297 /* AppDelegate.m in Sources */,
 				18F8B4C61BEBA34E003C3297 /* main.m in Sources */,
-				9C99BE3D1BEC79660043B7F7 /* PainterBaseViewController.m in Sources */,
-				9C99BE371BEC78750043B7F7 /* PainterTabBarController.m in Sources */,
-				9C99BE531BEC815B0043B7F7 /* PainterCoordinatingVC.m in Sources */,
-				9C99BE4A1BEC7C240043B7F7 /* PainterCanvasVC.m in Sources */,
-				9C99BE3A1BEC79100043B7F7 /* PainterNavigationController.m in Sources */,
+				9C1CC77F1BEF98E7006FC99F /* ThumbnailViewController.m in Sources */,
+				9C1CC7791BEF98D2006FC99F /* CanvasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,18 +1,18 @@
 //
-//  PainterThumbnailVC.m
+//  CanvasViewController.m
 //  TouchPainter
 //
-//  Created by liyingpeng on 15/11/6.
+//  Created by liyingpeng on 15/11/8.
 //  Copyright © 2015年 liyingpeng. All rights reserved.
 //
 
-#import "PainterThumbnailVC.h"
+#import "CanvasViewController.h"
 
-@interface PainterThumbnailVC ()
+@interface CanvasViewController ()
 
 @end
 
-@implementation PainterThumbnailVC
+@implementation CanvasViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

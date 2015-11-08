@@ -1,18 +1,18 @@
 //
-//  PainterNavigationController.m
+//  ThumbnailViewController.m
 //  TouchPainter
 //
-//  Created by liyingpeng on 15/11/6.
+//  Created by liyingpeng on 15/11/8.
 //  Copyright © 2015年 liyingpeng. All rights reserved.
 //
 
-#import "PainterNavigationController.h"
+#import "ThumbnailViewController.h"
 
-@interface PainterNavigationController ()
+@interface ThumbnailViewController ()
 
 @end
 
-@implementation PainterNavigationController
+@implementation ThumbnailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
