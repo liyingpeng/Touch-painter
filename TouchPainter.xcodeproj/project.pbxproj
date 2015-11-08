@@ -17,6 +17,11 @@
 		9C1CC77C1BEF98DC006FC99F /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC77B1BEF98DC006FC99F /* PaletteViewController.m */; };
 		9C1CC77F1BEF98E7006FC99F /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC77E1BEF98E7006FC99F /* ThumbnailViewController.m */; };
 		9C1CC7821BEF9922006FC99F /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7811BEF9922006FC99F /* CoordinatingController.m */; };
+		9C1CC7941BEFA471006FC99F /* Mark.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7931BEFA471006FC99F /* Mark.m */; };
+		9C1CC7971BEFA56C006FC99F /* MarkVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7961BEFA56C006FC99F /* MarkVisitor.m */; };
+		9C1CC79A1BEFA5F8006FC99F /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7991BEFA5F8006FC99F /* Vertex.m */; };
+		9C1CC79D1BEFA605006FC99F /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC79C1BEFA605006FC99F /* Dot.m */; };
+		9C1CC7A01BEFA617006FC99F /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC79F1BEFA617006FC99F /* Stroke.m */; };
 		9C32F1561BEC49F700FA8588 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F1551BEC49F700FA8588 /* Foundation.framework */; };
 		9C32F1581BEC4BAC00FA8588 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F1571BEC4BAC00FA8588 /* UIKit.framework */; };
 		9C32F15A1BEC4BD500FA8588 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F1591BEC4BD500FA8588 /* CoreImage.framework */; };
@@ -56,6 +61,16 @@
 		9C1CC7851BEF9CD0006FC99F /* BDMMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDMMacroDefine.h; sourceTree = "<group>"; };
 		9C1CC7871BEF9CD0006FC99F /* SigletonMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigletonMarco.h; sourceTree = "<group>"; };
 		9C1CC7881BEFA055006FC99F /* touchpainter.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = touchpainter.pch; sourceTree = "<group>"; };
+		9C1CC7921BEFA471006FC99F /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		9C1CC7931BEFA471006FC99F /* Mark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mark.m; sourceTree = "<group>"; };
+		9C1CC7951BEFA56C006FC99F /* MarkVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkVisitor.h; sourceTree = "<group>"; };
+		9C1CC7961BEFA56C006FC99F /* MarkVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkVisitor.m; sourceTree = "<group>"; };
+		9C1CC7981BEFA5F8006FC99F /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		9C1CC7991BEFA5F8006FC99F /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		9C1CC79B1BEFA605006FC99F /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		9C1CC79C1BEFA605006FC99F /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		9C1CC79E1BEFA617006FC99F /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		9C1CC79F1BEFA617006FC99F /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
 		9C32F1551BEC49F700FA8588 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9C32F1571BEC4BAC00FA8588 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C32F1591BEC4BD500FA8588 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -165,6 +180,14 @@
 		9C1CC76A1BEF976A006FC99F /* Composite_Prototype_Iterator */ = {
 			isa = PBXGroup;
 			children = (
+				9C1CC7921BEFA471006FC99F /* Mark.h */,
+				9C1CC7931BEFA471006FC99F /* Mark.m */,
+				9C1CC7981BEFA5F8006FC99F /* Vertex.h */,
+				9C1CC7991BEFA5F8006FC99F /* Vertex.m */,
+				9C1CC79B1BEFA605006FC99F /* Dot.h */,
+				9C1CC79C1BEFA605006FC99F /* Dot.m */,
+				9C1CC79E1BEFA617006FC99F /* Stroke.h */,
+				9C1CC79F1BEFA617006FC99F /* Stroke.m */,
 			);
 			path = Composite_Prototype_Iterator;
 			sourceTree = "<group>";
@@ -233,6 +256,8 @@
 		9C1CC7731BEF976A006FC99F /* Visitor */ = {
 			isa = PBXGroup;
 			children = (
+				9C1CC7951BEFA56C006FC99F /* MarkVisitor.h */,
+				9C1CC7961BEFA56C006FC99F /* MarkVisitor.m */,
 			);
 			path = Visitor;
 			sourceTree = "<group>";
@@ -386,7 +411,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C1CC7821BEF9922006FC99F /* CoordinatingController.m in Sources */,
+				9C1CC7A01BEFA617006FC99F /* Stroke.m in Sources */,
+				9C1CC79A1BEFA5F8006FC99F /* Vertex.m in Sources */,
 				9C1CC77C1BEF98DC006FC99F /* PaletteViewController.m in Sources */,
+				9C1CC79D1BEFA605006FC99F /* Dot.m in Sources */,
+				9C1CC7941BEFA471006FC99F /* Mark.m in Sources */,
+				9C1CC7971BEFA56C006FC99F /* MarkVisitor.m in Sources */,
 				18F8B4C91BEBA34E003C3297 /* AppDelegate.m in Sources */,
 				18F8B4C61BEBA34E003C3297 /* main.m in Sources */,
 				9C1CC77F1BEF98E7006FC99F /* ThumbnailViewController.m in Sources */,
