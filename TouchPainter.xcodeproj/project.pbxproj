@@ -53,10 +53,9 @@
 		9C1CC77E1BEF98E7006FC99F /* ThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailViewController.m; sourceTree = "<group>"; };
 		9C1CC7801BEF9922006FC99F /* CoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatingController.h; sourceTree = "<group>"; };
 		9C1CC7811BEF9922006FC99F /* CoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
-		9C1CC7841BEF9CD0006FC99F /* BDMCommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDMCommonHeader.h; sourceTree = "<group>"; };
 		9C1CC7851BEF9CD0006FC99F /* BDMMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDMMacroDefine.h; sourceTree = "<group>"; };
-		9C1CC7861BEF9CD0006FC99F /* Commons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
 		9C1CC7871BEF9CD0006FC99F /* SigletonMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigletonMarco.h; sourceTree = "<group>"; };
+		9C1CC7881BEFA055006FC99F /* touchpainter.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = touchpainter.pch; sourceTree = "<group>"; };
 		9C32F1551BEC49F700FA8588 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9C32F1571BEC4BAC00FA8588 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C32F1591BEC4BD500FA8588 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -134,6 +133,7 @@
 			children = (
 				18F8B4C41BEBA34E003C3297 /* Info.plist */,
 				18F8B4C51BEBA34E003C3297 /* main.m */,
+				9C1CC7881BEFA055006FC99F /* touchpainter.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -267,9 +267,7 @@
 		9C1CC7831BEF9CD0006FC99F /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				9C1CC7841BEF9CD0006FC99F /* BDMCommonHeader.h */,
 				9C1CC7851BEF9CD0006FC99F /* BDMMacroDefine.h */,
-				9C1CC7861BEF9CD0006FC99F /* Commons.h */,
 				9C1CC7871BEF9CD0006FC99F /* SigletonMarco.h */,
 			);
 			path = Common;
@@ -520,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = TouchPainter/touchpainter.pch;
 				INFOPLIST_FILE = TouchPainter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -530,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = TouchPainter/touchpainter.pch;
 				INFOPLIST_FILE = TouchPainter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

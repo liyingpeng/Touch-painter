@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SigletonMarco.h"
 
 typedef NS_ENUM(NSInteger, ButtonTag) {
     kButtonTagDone = 0,
