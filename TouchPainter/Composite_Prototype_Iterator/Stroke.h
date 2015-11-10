@@ -12,7 +12,7 @@
 
 @protocol MarkVisitor;
 
-@interface Stroke : NSObject
+@interface Stroke : NSObject <Mark>
 
 @property (nonatomic, strong) UIColor *color;
 @property (nonatomic, assign) CGFloat size;

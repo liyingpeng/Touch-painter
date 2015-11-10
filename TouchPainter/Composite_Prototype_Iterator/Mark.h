@@ -15,7 +15,7 @@
 @property(nonatomic, assign) CGFloat size;
 @property(nonatomic, assign) CGPoint location;
 @property(nonatomic, assign, readonly) NSUInteger count;
-@property(nonatomic, copy, readonly) id<Mark> lastChild;
+@property(nonatomic, assign, readonly) id<Mark> lastChild;
 
 - (instancetype)copy;
 - (void)addMark:(id<Mark>)mark;
