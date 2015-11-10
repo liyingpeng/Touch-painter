@@ -26,6 +26,12 @@
 		9C32F1581BEC4BAC00FA8588 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F1571BEC4BAC00FA8588 /* UIKit.framework */; };
 		9C32F15A1BEC4BD500FA8588 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F1591BEC4BD500FA8588 /* CoreImage.framework */; };
 		9C32F15C1BEC4BE300FA8588 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F15B1BEC4BE300FA8588 /* CoreGraphics.framework */; };
+		9C3F316C1BF1745600FA2036 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F316B1BF1745600FA2036 /* Command.m */; };
+		9C3F316F1BF174A000FA2036 /* MarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F316E1BF174A000FA2036 /* MarkEnumerator.m */; };
+		9C3F31731BF175D500FA2036 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F31721BF175D500FA2036 /* NSMutableArray+Stack.m */; };
+		9C3F31761BF176B200FA2036 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F31751BF176B200FA2036 /* CanvasView.m */; };
+		9C3F31791BF1786D00FA2036 /* MarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F31781BF1786D00FA2036 /* MarkRenderer.m */; };
+		9C3F317C1BF17A8500FA2036 /* MarkEnumerator+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F317B1BF17A8500FA2036 /* MarkEnumerator+Internal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +81,18 @@
 		9C32F1571BEC4BAC00FA8588 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C32F1591BEC4BD500FA8588 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		9C32F15B1BEC4BE300FA8588 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C3F316A1BF1745600FA2036 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		9C3F316B1BF1745600FA2036 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		9C3F316D1BF174A000FA2036 /* MarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkEnumerator.h; sourceTree = "<group>"; };
+		9C3F316E1BF174A000FA2036 /* MarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkEnumerator.m; sourceTree = "<group>"; };
+		9C3F31711BF175D500FA2036 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		9C3F31721BF175D500FA2036 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
+		9C3F31741BF176B200FA2036 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		9C3F31751BF176B200FA2036 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		9C3F31771BF1786D00FA2036 /* MarkRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkRenderer.h; sourceTree = "<group>"; };
+		9C3F31781BF1786D00FA2036 /* MarkRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkRenderer.m; sourceTree = "<group>"; };
+		9C3F317A1BF17A8500FA2036 /* MarkEnumerator+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MarkEnumerator+Internal.h"; sourceTree = "<group>"; };
+		9C3F317B1BF17A8500FA2036 /* MarkEnumerator+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MarkEnumerator+Internal.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +191,8 @@
 		9C1CC7691BEF976A006FC99F /* Command */ = {
 			isa = PBXGroup;
 			children = (
+				9C3F316A1BF1745600FA2036 /* Command.h */,
+				9C3F316B1BF1745600FA2036 /* Command.m */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -202,6 +222,10 @@
 		9C1CC76C1BEF976A006FC99F /* Iterator */ = {
 			isa = PBXGroup;
 			children = (
+				9C3F316D1BF174A000FA2036 /* MarkEnumerator.h */,
+				9C3F316E1BF174A000FA2036 /* MarkEnumerator.m */,
+				9C3F317A1BF17A8500FA2036 /* MarkEnumerator+Internal.h */,
+				9C3F317B1BF17A8500FA2036 /* MarkEnumerator+Internal.m */,
 			);
 			path = Iterator;
 			sourceTree = "<group>";
@@ -232,6 +256,7 @@
 		9C1CC7701BEF976A006FC99F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9C3F31701BF1754800FA2036 /* CommonStack */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -249,6 +274,8 @@
 		9C1CC7721BEF976A006FC99F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9C3F31741BF176B200FA2036 /* CanvasView.h */,
+				9C3F31751BF176B200FA2036 /* CanvasView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -258,6 +285,8 @@
 			children = (
 				9C1CC7951BEFA56C006FC99F /* MarkVisitor.h */,
 				9C1CC7961BEFA56C006FC99F /* MarkVisitor.m */,
+				9C3F31771BF1786D00FA2036 /* MarkRenderer.h */,
+				9C3F31781BF1786D00FA2036 /* MarkRenderer.m */,
 			);
 			path = Visitor;
 			sourceTree = "<group>";
@@ -307,6 +336,15 @@
 				9C32F1551BEC49F700FA8588 /* Foundation.framework */,
 			);
 			name = framework;
+			sourceTree = "<group>";
+		};
+		9C3F31701BF1754800FA2036 /* CommonStack */ = {
+			isa = PBXGroup;
+			children = (
+				9C3F31711BF175D500FA2036 /* NSMutableArray+Stack.h */,
+				9C3F31721BF175D500FA2036 /* NSMutableArray+Stack.m */,
+			);
+			path = CommonStack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,17 +448,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3F31731BF175D500FA2036 /* NSMutableArray+Stack.m in Sources */,
 				9C1CC7821BEF9922006FC99F /* CoordinatingController.m in Sources */,
 				9C1CC7A01BEFA617006FC99F /* Stroke.m in Sources */,
 				9C1CC79A1BEFA5F8006FC99F /* Vertex.m in Sources */,
 				9C1CC77C1BEF98DC006FC99F /* PaletteViewController.m in Sources */,
 				9C1CC79D1BEFA605006FC99F /* Dot.m in Sources */,
+				9C3F317C1BF17A8500FA2036 /* MarkEnumerator+Internal.m in Sources */,
 				9C1CC7941BEFA471006FC99F /* Mark.m in Sources */,
 				9C1CC7971BEFA56C006FC99F /* MarkVisitor.m in Sources */,
+				9C3F316C1BF1745600FA2036 /* Command.m in Sources */,
 				18F8B4C91BEBA34E003C3297 /* AppDelegate.m in Sources */,
 				18F8B4C61BEBA34E003C3297 /* main.m in Sources */,
+				9C3F31791BF1786D00FA2036 /* MarkRenderer.m in Sources */,
 				9C1CC77F1BEF98E7006FC99F /* ThumbnailViewController.m in Sources */,
+				9C3F316F1BF174A000FA2036 /* MarkEnumerator.m in Sources */,
 				9C1CC7791BEF98D2006FC99F /* CanvasViewController.m in Sources */,
+				9C3F31761BF176B200FA2036 /* CanvasView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
