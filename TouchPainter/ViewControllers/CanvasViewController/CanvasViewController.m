@@ -12,11 +12,33 @@
 
 @interface CanvasViewController ()
 {
+    UIToolbar *_toolBar;
     CGPoint _startPoint;
 }
+
+@property(nonatomic, strong) NSMutableArray *commonButtonArray;
+
 @end
 
 @implementation CanvasViewController
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.commonButtonArray = [[NSMutableArray alloc] initWithCapacity:5];
+        [self setupUI];
+    }
+    return self;
+}
+
+- (void)setupUI {
+    _toolBar = [[UIToolbar alloc] initWithFrame:RECT(0, SCREENHEIGHT - 44., SCREENWIDTH, 44.)];
+    [self.view addSubview:_toolBar];
+    
+    CommandBarButton *trashButton = [[CommandBarButton alloc] init];
+    [trashButton setImage:[UIImage imageNamed:@"save"]];
+}
 
 // hook up everything with a new Scribble instance
 - (void) setScribble:(Scribble *)aScribble

@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "CanvasView.h"
 
+/**
+ *  工厂方法模式
+ */
 @interface CanvasViewGenerator : NSObject
 
 - (CanvasView *) canvasViewWithFrame:(CGRect) aFrame;

@@ -16,10 +16,10 @@
 // ScribbleManager's private category
 @interface ScribbleManager ()
 
-- (NSString *) scribbleDataPath;
-- (NSString *) scribbleThumbnailPath;
-- (NSArray *) scribbleDataPaths;
-- (NSArray *) scribbleThumbnailPaths;
+//- (NSString *) scribbleDataPath;
+//- (NSString *) scribbleThumbnailPath;
+//- (NSArray *) scribbleDataPaths;
+//- (NSArray *) scribbleThumbnailPaths;
 
 @end
 
@@ -31,8 +31,8 @@
     NSInteger newIndex = [self numberOfScribbles] + 1;
     
     // use the index as part of the name for each of them
-    NSString *scribbleDataName = [NSString stringWithFormat:@"data_%d", newIndex];
-    NSString *scribbleThumbnailName = [NSString stringWithFormat:@"thumbnail_%d.png",
+    NSString *scribbleDataName = [NSString stringWithFormat:@"data_%ld", newIndex];
+    NSString *scribbleThumbnailName = [NSString stringWithFormat:@"thumbnail_%ld.png",
                                        newIndex];
     
     // get a memento from the scribble

@@ -10,6 +10,9 @@
 
 @interface Command : NSObject
 
+/**
+ *  命令模式
+ */
 @property(nonatomic, strong) NSDictionary *userInfo;
 
 - (void)execute;

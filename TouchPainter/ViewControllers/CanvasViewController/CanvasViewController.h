@@ -15,9 +15,9 @@
 
 @interface CanvasViewController : UIViewController
 
-@property (nonatomic, retain) CanvasView *canvasView;
-@property (nonatomic, retain) Scribble *scribble;
-@property (nonatomic, retain) UIColor *strokeColor;
+@property (nonatomic, strong) CanvasView *canvasView;
+@property (nonatomic, strong) Scribble *scribble;
+@property (nonatomic, strong) UIColor *strokeColor;
 @property (nonatomic, assign) CGFloat strokeSize;
 
 - (void) loadCanvasViewWithGenerator:(CanvasViewGenerator *)generator;

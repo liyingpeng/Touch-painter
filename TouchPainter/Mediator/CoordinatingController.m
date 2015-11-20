@@ -7,9 +7,6 @@
 //
 
 #import "CoordinatingController.h"
-#import "CanvasViewController.h"
-#import "PaletteViewController.h"
-#import "ThumbnailViewController.h"
 
 @implementation CoordinatingController
 

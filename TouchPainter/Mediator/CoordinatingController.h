@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CanvasViewController.h"
+#import "PaletteViewController.h"
+#import "ThumbnailViewController.h"
 
 typedef NS_ENUM(NSInteger, ButtonTag) {
     kButtonTagDone = 0,
@@ -16,6 +19,9 @@ typedef NS_ENUM(NSInteger, ButtonTag) {
 
 @class UIViewController, CanvasViewController;
 
+/**
+ *  mediator 中介者模式
+ */
 @interface CoordinatingController : NSObject
 
 SINGLETON_FOR_HEADER

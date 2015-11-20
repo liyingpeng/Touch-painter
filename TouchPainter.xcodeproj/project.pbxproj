@@ -40,6 +40,10 @@
 		9C3F319D1BF1805B00FA2036 /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F319C1BF1805B00FA2036 /* ScribbleManager.m */; };
 		9C3F31A01BF180CC00FA2036 /* OpenScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F319F1BF180CC00FA2036 /* OpenScribbleCommand.m */; };
 		9C3F31A31BF1818500FA2036 /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F31A21BF1818500FA2036 /* CanvasViewGenerator.m */; };
+		9CE6EDB81BFEF55F00BFDA00 /* DeleteScribbleCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6EDB71BFEF55F00BFDA00 /* DeleteScribbleCommon.m */; };
+		9CE6EDBB1BFEF59F00BFDA00 /* SaveScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6EDBA1BFEF59F00BFDA00 /* SaveScribbleCommand.m */; };
+		9CE6EDBE1BFEF61F00BFDA00 /* SetStrokeSizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6EDBD1BFEF61F00BFDA00 /* SetStrokeSizeCommand.m */; };
+		9CE6EDC11BFEF72000BFDA00 /* SetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6EDC01BFEF72000BFDA00 /* SetStrokeColorCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +125,14 @@
 		9C3F31A11BF1818500FA2036 /* CanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
 		9C3F31A21BF1818500FA2036 /* CanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
 		9CE6EDB51BFECE8900BFDA00 /* ScribbleMemento+Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ScribbleMemento+Friend.h"; sourceTree = "<group>"; };
+		9CE6EDB61BFEF55F00BFDA00 /* DeleteScribbleCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteScribbleCommon.h; sourceTree = "<group>"; };
+		9CE6EDB71BFEF55F00BFDA00 /* DeleteScribbleCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteScribbleCommon.m; sourceTree = "<group>"; };
+		9CE6EDB91BFEF59F00BFDA00 /* SaveScribbleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveScribbleCommand.h; sourceTree = "<group>"; };
+		9CE6EDBA1BFEF59F00BFDA00 /* SaveScribbleCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveScribbleCommand.m; sourceTree = "<group>"; };
+		9CE6EDBC1BFEF61F00BFDA00 /* SetStrokeSizeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetStrokeSizeCommand.h; sourceTree = "<group>"; };
+		9CE6EDBD1BFEF61F00BFDA00 /* SetStrokeSizeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetStrokeSizeCommand.m; sourceTree = "<group>"; };
+		9CE6EDBF1BFEF72000BFDA00 /* SetStrokeColorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetStrokeColorCommand.h; sourceTree = "<group>"; };
+		9CE6EDC01BFEF72000BFDA00 /* SetStrokeColorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetStrokeColorCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +233,14 @@
 			children = (
 				9C3F316A1BF1745600FA2036 /* Command.h */,
 				9C3F316B1BF1745600FA2036 /* Command.m */,
+				9CE6EDBF1BFEF72000BFDA00 /* SetStrokeColorCommand.h */,
+				9CE6EDC01BFEF72000BFDA00 /* SetStrokeColorCommand.m */,
+				9CE6EDBC1BFEF61F00BFDA00 /* SetStrokeSizeCommand.h */,
+				9CE6EDBD1BFEF61F00BFDA00 /* SetStrokeSizeCommand.m */,
+				9CE6EDB91BFEF59F00BFDA00 /* SaveScribbleCommand.h */,
+				9CE6EDBA1BFEF59F00BFDA00 /* SaveScribbleCommand.m */,
+				9CE6EDB61BFEF55F00BFDA00 /* DeleteScribbleCommon.h */,
+				9CE6EDB71BFEF55F00BFDA00 /* DeleteScribbleCommon.m */,
 				9C3F319E1BF180CC00FA2036 /* OpenScribbleCommand.h */,
 				9C3F319F1BF180CC00FA2036 /* OpenScribbleCommand.m */,
 			);
@@ -468,6 +488,7 @@
 				TargetAttributes = {
 					18F8B4BF1BEBA34E003C3297 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = XHL9KV9Y86;
 					};
 					18F8B4D81BEBA34E003C3297 = {
 						CreatedOnToolsVersion = 6.4;
@@ -524,6 +545,7 @@
 				9C1CC7821BEF9922006FC99F /* CoordinatingController.m in Sources */,
 				9C1CC7A01BEFA617006FC99F /* Stroke.m in Sources */,
 				9C3F318E1BF17D8000FA2036 /* Scribble.m in Sources */,
+				9CE6EDC11BFEF72000BFDA00 /* SetStrokeColorCommand.m in Sources */,
 				9C1CC79A1BEFA5F8006FC99F /* Vertex.m in Sources */,
 				9C1CC77C1BEF98DC006FC99F /* PaletteViewController.m in Sources */,
 				9C3F31A31BF1818500FA2036 /* CanvasViewGenerator.m in Sources */,
@@ -534,6 +556,7 @@
 				9C3F316C1BF1745600FA2036 /* Command.m in Sources */,
 				18F8B4C91BEBA34E003C3297 /* AppDelegate.m in Sources */,
 				18F8B4C61BEBA34E003C3297 /* main.m in Sources */,
+				9CE6EDBB1BFEF59F00BFDA00 /* SaveScribbleCommand.m in Sources */,
 				9C3F31A01BF180CC00FA2036 /* OpenScribbleCommand.m in Sources */,
 				9C3F31971BF17ED400FA2036 /* ScribbleThumbnailView.m in Sources */,
 				9C3F31941BF17DE900FA2036 /* ScribbleMemento.m in Sources */,
@@ -541,6 +564,8 @@
 				9C1CC77F1BEF98E7006FC99F /* ThumbnailViewController.m in Sources */,
 				9C3F316F1BF174A000FA2036 /* MarkEnumerator.m in Sources */,
 				9C3F319D1BF1805B00FA2036 /* ScribbleManager.m in Sources */,
+				9CE6EDB81BFEF55F00BFDA00 /* DeleteScribbleCommon.m in Sources */,
+				9CE6EDBE1BFEF61F00BFDA00 /* SetStrokeSizeCommand.m in Sources */,
 				9C3F319A1BF17F2100FA2036 /* ScribbleThumbnailImageProxy.m in Sources */,
 				9C1CC7791BEF98D2006FC99F /* CanvasViewController.m in Sources */,
 				9C3F31761BF176B200FA2036 /* CanvasView.m in Sources */,
@@ -603,7 +628,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Xiaopeng (Z9XDANLX9Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Xiaopeng (Z9XDANLX9Y)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -625,6 +651,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "017ed005-e91c-4c85-b94e-d09eee676a2b";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -672,10 +699,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Xiaopeng (Z9XDANLX9Y)";
 				GCC_PREFIX_HEADER = TouchPainter/touchpainter.pch;
 				INFOPLIST_FILE = TouchPainter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.touchpainter.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "017ed005-e91c-4c85-b94e-d09eee676a2b";
 			};
 			name = Debug;
 		};
@@ -683,9 +713,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = TouchPainter/touchpainter.pch;
 				INFOPLIST_FILE = TouchPainter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.touchpainter.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

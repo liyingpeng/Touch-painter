@@ -17,6 +17,11 @@
 @property(nonatomic, assign, readonly) NSUInteger count;// 子节点的个数
 @property(nonatomic, assign, readonly) id<Mark> lastChild;
 
+/**
+ *  原型模式
+ *
+ *  @return 深复制的对象
+ */
 - (instancetype)copy;
 - (void)addMark:(id<Mark>)mark;
 - (void)removeMark:(id<Mark>)mark;

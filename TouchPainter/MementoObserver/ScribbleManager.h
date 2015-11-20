@@ -10,6 +10,9 @@
 #import "Scribble.h"
 #import "ScribbleThumbnailImageProxy.h"
 
+/**
+ *  装饰模式，草稿和备忘录的管理者
+ */
 @interface ScribbleManager : NSObject
 
 - (void) saveScribble:(Scribble *)scribble thumbnail:(UIImage *)image;
