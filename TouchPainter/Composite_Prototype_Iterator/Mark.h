@@ -35,7 +35,3 @@
 - (void)drawWithContext:(CGContextRef)context;
 
 @end
-
-@interface Mark : UIView
-
-@end

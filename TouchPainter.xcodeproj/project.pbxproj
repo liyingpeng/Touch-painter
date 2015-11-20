@@ -17,7 +17,6 @@
 		9C1CC77C1BEF98DC006FC99F /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC77B1BEF98DC006FC99F /* PaletteViewController.m */; };
 		9C1CC77F1BEF98E7006FC99F /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC77E1BEF98E7006FC99F /* ThumbnailViewController.m */; };
 		9C1CC7821BEF9922006FC99F /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7811BEF9922006FC99F /* CoordinatingController.m */; };
-		9C1CC7941BEFA471006FC99F /* Mark.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7931BEFA471006FC99F /* Mark.m */; };
 		9C1CC79A1BEFA5F8006FC99F /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7991BEFA5F8006FC99F /* Vertex.m */; };
 		9C1CC79D1BEFA605006FC99F /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC79C1BEFA605006FC99F /* Dot.m */; };
 		9C1CC7A01BEFA617006FC99F /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC79F1BEFA617006FC99F /* Stroke.m */; };
@@ -77,7 +76,6 @@
 		9C1CC7871BEF9CD0006FC99F /* SigletonMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigletonMarco.h; sourceTree = "<group>"; };
 		9C1CC7881BEFA055006FC99F /* touchpainter.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = touchpainter.pch; sourceTree = "<group>"; };
 		9C1CC7921BEFA471006FC99F /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
-		9C1CC7931BEFA471006FC99F /* Mark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mark.m; sourceTree = "<group>"; };
 		9C1CC7951BEFA56C006FC99F /* MarkVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkVisitor.h; sourceTree = "<group>"; };
 		9C1CC7981BEFA5F8006FC99F /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
 		9C1CC7991BEFA5F8006FC99F /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
@@ -232,7 +230,6 @@
 			isa = PBXGroup;
 			children = (
 				9C1CC7921BEFA471006FC99F /* Mark.h */,
-				9C1CC7931BEFA471006FC99F /* Mark.m */,
 				9C1CC7981BEFA5F8006FC99F /* Vertex.h */,
 				9C1CC7991BEFA5F8006FC99F /* Vertex.m */,
 				9C1CC79B1BEFA605006FC99F /* Dot.h */,
@@ -532,7 +529,6 @@
 				9C1CC79D1BEFA605006FC99F /* Dot.m in Sources */,
 				9C3F31821BF17C5300FA2036 /* UIView+UIImage.m in Sources */,
 				9C3F317C1BF17A8500FA2036 /* MarkEnumerator+Internal.m in Sources */,
-				9C1CC7941BEFA471006FC99F /* Mark.m in Sources */,
 				9C3F316C1BF1745600FA2036 /* Command.m in Sources */,
 				18F8B4C91BEBA34E003C3297 /* AppDelegate.m in Sources */,
 				18F8B4C61BEBA34E003C3297 /* main.m in Sources */,
