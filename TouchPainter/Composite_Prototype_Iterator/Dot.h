@@ -11,7 +11,7 @@
 @interface Dot : Vertex
 
 // for the Visitor pattern
-- (void)acceptMarkVisitor:(id <MarkVisitor>)visitor;
+//- (void)acceptMarkVisitor:(id <MarkVisitor>)visitor;
 
 // for the Prototype pattern
 - (id)copyWithZone:(NSZone *)zone;

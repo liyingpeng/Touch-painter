@@ -11,28 +11,28 @@
 
 @interface Vertex : NSObject <Mark>
 
-@property(nonatomic, strong) UIColor *color;
-@property(nonatomic, assign) CGFloat size;
+//@property(nonatomic, strong) UIColor *color;
+//@property(nonatomic, assign) CGFloat size;
 @property(nonatomic, assign) CGPoint location;
 @property(nonatomic, readonly) NSUInteger count;
 @property(nonatomic, assign, readonly) id<Mark> lastChild;
 
 - (instancetype)initWithLocation:(CGPoint)location;
-- (void)addMark:(id <Mark>)mark;
-- (void)removeMark:(id <Mark>)mark;
-- (id<Mark>)childMarkAtIndex:(NSUInteger)index;
-
+//- (void)addMark:(id <Mark>)mark;
+//- (void)removeMark:(id <Mark>)mark;
+//- (id<Mark>)childMarkAtIndex:(NSUInteger)index;
+//
 // for the Visitor pattern
-- (void)acceptMarkVisitor:(id<MarkVisitor>)visitor;
+//- (void)acceptMarkVisitor:(id<MarkVisitor>)visitor;
 
 // for the Prototype pattern
-- (id)copyWithZone:(NSZone *)zone;
+//- (id)copyWithZone:(NSZone *)zone;
 
 // for the Iterator pattern
-- (NSEnumerator *)enumerator;
+//- (NSEnumerator *)enumerator;
 
 // for internal iterator implementation
-- (void)enumerateMarksUsingBlock:(void (^)(id <Mark> item, BOOL *stop))block;
+//- (void)enumerateMarksUsingBlock:(void (^)(id <Mark> item, BOOL *stop))block;
 
 // for the Memento pattern
 - (instancetype)initWithCoder:(NSCoder *)coder;

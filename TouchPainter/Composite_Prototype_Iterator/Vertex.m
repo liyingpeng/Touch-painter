@@ -42,6 +42,7 @@
 // it needs to be implemented for memento
 - (id)copyWithZone:(NSZone *)zone
 {
+    // 采用self class保证子类也可以复用
     Vertex *vertexCopy = [[[self class] allocWithZone:zone] initWithLocation:_location];
     
     return vertexCopy;

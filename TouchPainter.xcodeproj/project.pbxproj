@@ -120,6 +120,7 @@
 		9C3F319F1BF180CC00FA2036 /* OpenScribbleCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenScribbleCommand.m; sourceTree = "<group>"; };
 		9C3F31A11BF1818500FA2036 /* CanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
 		9C3F31A21BF1818500FA2036 /* CanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		9CE6EDB51BFECE8900BFDA00 /* ScribbleMemento+Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ScribbleMemento+Friend.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +279,7 @@
 				9C3F31931BF17DE900FA2036 /* ScribbleMemento.m */,
 				9C3F319B1BF1805B00FA2036 /* ScribbleManager.h */,
 				9C3F319C1BF1805B00FA2036 /* ScribbleManager.m */,
+				9CE6EDB51BFECE8900BFDA00 /* ScribbleMemento+Friend.h */,
 			);
 			path = MementoObserver;
 			sourceTree = "<group>";

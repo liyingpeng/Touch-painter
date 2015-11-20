@@ -14,7 +14,7 @@
 @property(nonatomic, strong) UIColor *color;
 @property(nonatomic, assign) CGFloat size;
 @property(nonatomic, assign) CGPoint location;
-@property(nonatomic, assign, readonly) NSUInteger count;
+@property(nonatomic, assign, readonly) NSUInteger count;// 子节点的个数
 @property(nonatomic, assign, readonly) id<Mark> lastChild;
 
 - (instancetype)copy;
