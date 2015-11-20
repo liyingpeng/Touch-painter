@@ -18,7 +18,6 @@
 		9C1CC77F1BEF98E7006FC99F /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC77E1BEF98E7006FC99F /* ThumbnailViewController.m */; };
 		9C1CC7821BEF9922006FC99F /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7811BEF9922006FC99F /* CoordinatingController.m */; };
 		9C1CC7941BEFA471006FC99F /* Mark.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7931BEFA471006FC99F /* Mark.m */; };
-		9C1CC7971BEFA56C006FC99F /* MarkVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7961BEFA56C006FC99F /* MarkVisitor.m */; };
 		9C1CC79A1BEFA5F8006FC99F /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC7991BEFA5F8006FC99F /* Vertex.m */; };
 		9C1CC79D1BEFA605006FC99F /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC79C1BEFA605006FC99F /* Dot.m */; };
 		9C1CC7A01BEFA617006FC99F /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CC79F1BEFA617006FC99F /* Stroke.m */; };
@@ -35,7 +34,6 @@
 		9C3F31821BF17C5300FA2036 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F31811BF17C5300FA2036 /* UIView+UIImage.m */; };
 		9C3F31851BF17C9F00FA2036 /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F31841BF17C9F00FA2036 /* CommandSlider.m */; };
 		9C3F31881BF17CD900FA2036 /* CommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F31871BF17CD900FA2036 /* CommandBarButton.m */; };
-		9C3F318B1BF17D4400FA2036 /* ScribbleSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F318A1BF17D4400FA2036 /* ScribbleSource.m */; };
 		9C3F318E1BF17D8000FA2036 /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F318D1BF17D8000FA2036 /* Scribble.m */; };
 		9C3F31941BF17DE900FA2036 /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F31931BF17DE900FA2036 /* ScribbleMemento.m */; };
 		9C3F31971BF17ED400FA2036 /* ScribbleThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F31961BF17ED400FA2036 /* ScribbleThumbnailView.m */; };
@@ -81,7 +79,6 @@
 		9C1CC7921BEFA471006FC99F /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
 		9C1CC7931BEFA471006FC99F /* Mark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mark.m; sourceTree = "<group>"; };
 		9C1CC7951BEFA56C006FC99F /* MarkVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkVisitor.h; sourceTree = "<group>"; };
-		9C1CC7961BEFA56C006FC99F /* MarkVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkVisitor.m; sourceTree = "<group>"; };
 		9C1CC7981BEFA5F8006FC99F /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
 		9C1CC7991BEFA5F8006FC99F /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
 		9C1CC79B1BEFA605006FC99F /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
@@ -111,7 +108,6 @@
 		9C3F31861BF17CD900FA2036 /* CommandBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandBarButton.h; sourceTree = "<group>"; };
 		9C3F31871BF17CD900FA2036 /* CommandBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandBarButton.m; sourceTree = "<group>"; };
 		9C3F31891BF17D4400FA2036 /* ScribbleSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScribbleSource.h; sourceTree = "<group>"; };
-		9C3F318A1BF17D4400FA2036 /* ScribbleSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScribbleSource.m; sourceTree = "<group>"; };
 		9C3F318C1BF17D8000FA2036 /* Scribble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scribble.h; sourceTree = "<group>"; };
 		9C3F318D1BF17D8000FA2036 /* Scribble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scribble.m; sourceTree = "<group>"; };
 		9C3F31921BF17DE900FA2036 /* ScribbleMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScribbleMemento.h; sourceTree = "<group>"; };
@@ -293,7 +289,6 @@
 			isa = PBXGroup;
 			children = (
 				9C3F31891BF17D4400FA2036 /* ScribbleSource.h */,
-				9C3F318A1BF17D4400FA2036 /* ScribbleSource.m */,
 				9C3F31951BF17ED400FA2036 /* ScribbleThumbnailView.h */,
 				9C3F31961BF17ED400FA2036 /* ScribbleThumbnailView.m */,
 				9C3F31981BF17F2100FA2036 /* ScribbleThumbnailImageProxy.h */,
@@ -336,7 +331,6 @@
 			isa = PBXGroup;
 			children = (
 				9C1CC7951BEFA56C006FC99F /* MarkVisitor.h */,
-				9C1CC7961BEFA56C006FC99F /* MarkVisitor.m */,
 				9C3F31771BF1786D00FA2036 /* MarkRenderer.h */,
 				9C3F31781BF1786D00FA2036 /* MarkRenderer.m */,
 			);
@@ -539,14 +533,12 @@
 				9C3F31821BF17C5300FA2036 /* UIView+UIImage.m in Sources */,
 				9C3F317C1BF17A8500FA2036 /* MarkEnumerator+Internal.m in Sources */,
 				9C1CC7941BEFA471006FC99F /* Mark.m in Sources */,
-				9C1CC7971BEFA56C006FC99F /* MarkVisitor.m in Sources */,
 				9C3F316C1BF1745600FA2036 /* Command.m in Sources */,
 				18F8B4C91BEBA34E003C3297 /* AppDelegate.m in Sources */,
 				18F8B4C61BEBA34E003C3297 /* main.m in Sources */,
 				9C3F31A01BF180CC00FA2036 /* OpenScribbleCommand.m in Sources */,
 				9C3F31971BF17ED400FA2036 /* ScribbleThumbnailView.m in Sources */,
 				9C3F31941BF17DE900FA2036 /* ScribbleMemento.m in Sources */,
-				9C3F318B1BF17D4400FA2036 /* ScribbleSource.m in Sources */,
 				9C3F31791BF1786D00FA2036 /* MarkRenderer.m in Sources */,
 				9C1CC77F1BEF98E7006FC99F /* ThumbnailViewController.m in Sources */,
 				9C3F316F1BF174A000FA2036 /* MarkEnumerator.m in Sources */,

@@ -14,7 +14,3 @@
 - (Scribble *)scribble;
 
 @end
-
-@interface ScribbleSource : UIView
-
-@end

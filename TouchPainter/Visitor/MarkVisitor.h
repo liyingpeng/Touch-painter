@@ -19,7 +19,3 @@
 - (void) visitStroke:(Stroke *)stroke;
 
 @end
-
-@interface MarkVisitor : UIView
-
-@end
